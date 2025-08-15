@@ -1,0 +1,902 @@
+[
+    {
+        "ques": "AI 的主要功能是什麼？",
+        "optionA": "資料儲存",
+        "optionB": "自動化決策與分析",
+        "optionC": "網頁設計",
+        "optionD": "硬體維護",
+        "answer": "B",
+        "description": "A: 只是儲存資料，非 AI 核心功能\nB: 正確，AI 主要用於自動化分析與決策\nC: 網頁設計不是 AI 核心功能\nD: 硬體維護與 AI 無關"
+    },
+    {
+        "ques": "以下哪一個不是監督式學習的特徵？",
+        "optionA": "有標籤資料",
+        "optionB": "透過輸入輸出建立模型",
+        "optionC": "自行探索資料結構",
+        "optionD": "用於分類與回歸問題",
+        "answer": "C",
+        "description": "A: 監督式學習需要標籤\nB: 透過輸入輸出建立模型是監督式學習特徵\nC:正確，自行探索資料結構是非監督式學習特徵\nD: 分類與回歸問題常用監督式學習"
+    },
+    {
+        "ques": "資料前處理主要包含哪幾個步驟？",
+        "optionA": "清理、標準化、特徵選擇",
+        "optionB": "模型訓練與測試",
+        "optionC": "硬體升級",
+        "optionD": "資料儲存",
+        "answer": "A",
+        "description": "A: 正確，資料前處理包含清理、標準化與特徵選擇\nB: 訓練與測試是模型階段\nC: 與資料前處理無關\nD: 儲存只是保存資料"
+    },
+    {
+        "ques": "以下哪個是 AI 常用的輸入資料型態？",
+        "optionA": "圖片",
+        "optionB": "文字",
+        "optionC": "數值表格",
+        "optionD": "以上皆是",
+        "answer": "D",
+        "description": "A: 圖片是常用輸入\nB: 文字也是輸入資料\nC: 數值表格也是輸入資料\nD: 正確，AI 可處理多種資料型態"
+    },
+    {
+        "ques": "監督式學習主要用於解決哪種問題？",
+        "optionA": "分類與回歸",
+        "optionB": "資料探索",
+        "optionC": "資料壓縮",
+        "optionD": "硬體維護",
+        "answer": "A",
+        "description": "A: 正確，分類與回歸是監督式學習主要應用\nB: 資料探索屬非監督式學習\nC: 資料壓縮不是主要用途\nD: 與 AI 模型無關"
+    },
+    {
+        "ques": "以下哪一項不是 AI 的子領域？",
+        "optionA": "機器學習",
+        "optionB": "深度學習",
+        "optionC": "自然語言處理",
+        "optionD": "網頁前端設計",
+        "answer": "D",
+        "description": "A: 機器學習是 AI 子領域\nB: 深度學習是 AI 子領域\nC: 自然語言處理是 AI 子領域\nD: 網頁前端設計不是 AI 子領域"
+    },
+    {
+        "ques": "AI 模型訓練過程中，什麼是 overfitting？",
+        "optionA": "模型準確度低",
+        "optionB": "模型在訓練集表現好但測試集表現差",
+        "optionC": "資料不足",
+        "optionD": "模型過於簡單",
+        "answer": "B",
+        "description": "A: 準確度低不一定是 overfitting\nB: 正確，overfitting 指模型在訓練集表現好但泛化差\nC: 資料不足可能造成 overfitting，但不是定義\nD: 模型過於簡單通常會 underfitting"
+    },
+    {
+        "ques": "以下哪個方法可防止 overfitting？",
+        "optionA": "增加訓練資料",
+        "optionB": "減少正則化",
+        "optionC": "使用單一特徵",
+        "optionD": "忽略驗證集",
+        "answer": "A",
+        "description": "A: 正確，增加資料可降低 overfitting\nB: 減少正則化會加重 overfitting\nC: 使用單一特徵會降低模型泛化能力\nD: 忽略驗證集無法檢測 overfitting"
+    },
+    {
+        "ques": "非監督式學習主要目的是什麼？",
+        "optionA": "資料分類與標籤預測",
+        "optionB": "探索資料結構或分群",
+        "optionC": "訓練監督模型",
+        "optionD": "硬體加速",
+        "answer": "B",
+        "description": "A: 分類與標籤預測屬監督式學習\nB: 正確，非監督式學習用於探索資料結構或分群\nC: 訓練監督模型屬監督式學習\nD: 與非監督式學習無關"
+    },
+    {
+        "ques": "以下哪個是特徵工程常用方法？",
+        "optionA": "標準化",
+        "optionB": "特徵縮放",
+        "optionC": "特徵選擇",
+        "optionD": "以上皆是",
+        "answer": "D",
+        "description": "A: 標準化是特徵工程方法\nB: 特徵縮放是特徵工程方法\nC: 特徵選擇是特徵工程方法\nD: 正確，以上皆是常用方法"
+    },
+    {
+        "ques": "資料標準化的目的為何？",
+        "optionA": "提高模型準確率",
+        "optionB": "消除不同特徵量綱差異",
+        "optionC": "增加資料量",
+        "optionD": "降低運算成本",
+        "answer": "B",
+        "description": "A: 可能間接提高準確率，但不是直接目的\nB: 正確，標準化主要是消除特徵量綱差異\nC: 增加資料量是資料擴增\nD: 降低運算成本不是主要目的"
+    },
+    {
+        "ques": "深度學習常用的神經網路結構是什麼？",
+        "optionA": "決策樹",
+        "optionB": "支持向量機",
+        "optionC": "多層感知器(MLP)",
+        "optionD": "隨機森林",
+        "answer": "C",
+        "description": "A: 決策樹是傳統機器學習\nB: SVM 是傳統機器學習\nC: 正確，MLP 是常用深度學習神經網路\nD: 隨機森林是傳統機器學習"
+    },
+    {
+        "ques": "以下哪一項屬於監督式學習的應用？",
+        "optionA": "顧客分群",
+        "optionB": "垃圾郵件分類",
+        "optionC": "主成分分析",
+        "optionD": "聚類分析",
+        "answer": "B",
+        "description": "A: 顧客分群屬非監督式學習\nB: 正確，垃圾郵件分類屬監督式學習\nC: 主成分分析是降維方法\nD: 聚類分析屬非監督式學習"
+    },
+    {
+        "ques": "在資料分析中，缺失值處理的方法不包括？",
+        "optionA": "刪除缺失資料",
+        "optionB": "補值法",
+        "optionC": "保留缺失值進行訓練",
+        "optionD": "插值法",
+        "answer": "C",
+        "description": "A: 刪除缺失資料是常用方法\nB: 補值法是常用方法\nC: 正確，保留缺失值進行訓練會影響模型\nD: 插值法是常用方法"
+    },
+    {
+        "ques": "以下哪個指標用於分類模型評估？",
+        "optionA": "準確率",
+        "optionB": "均方誤差",
+        "optionC": "R平方",
+        "optionD": "餘弦相似度",
+        "answer": "A",
+        "description": "A: 正確，準確率是分類模型常用指標\nB: 均方誤差用於回歸模型\nC: R平方用於回歸模型\nD: 餘弦相似度用於向量相似性"
+    },
+    {
+        "ques": "模型訓練中，什麼是交叉驗證？",
+        "optionA": "將資料切成多份進行訓練與驗證",
+        "optionB": "增加模型層數",
+        "optionC": "降低學習率",
+        "optionD": "增加訓練資料",
+        "answer": "A",
+        "description": "A: 正確，交叉驗證是將資料切分多份進行訓練與驗證\nB: 增加層數不是交叉驗證\nC: 降低學習率不是交叉驗證\nD: 增加資料不是交叉驗證"
+    },
+    {
+        "ques": "AI 模型的泛化能力指的是？",
+        "optionA": "在訓練集表現能力",
+        "optionB": "在未見過資料上表現能力",
+        "optionC": "運算速度",
+        "optionD": "資料儲存量",
+        "answer": "B",
+        "description": "A: 訓練集表現好不代表泛化能力\nB: 正確，泛化能力指模型在未見資料上的表現\nC: 與泛化能力無關\nD: 與泛化能力無關"
+    },
+    {
+        "ques": "以下哪個是非監督式學習的應用？",
+        "optionA": "房價預測",
+        "optionB": "客戶分群",
+        "optionC": "股票回歸分析",
+        "optionD": "垃圾郵件分類",
+        "answer": "B",
+        "description": "A: 房價預測是監督式回歸\nB: 正確，客戶分群是非監督式學習\nC: 股票回歸分析是監督式回歸\nD: 垃圾郵件分類是監督式分類"
+    },
+    {
+        "ques": "深度學習的優勢是？",
+        "optionA": "不需要大量資料",
+        "optionB": "能自動特徵學習",
+        "optionC": "運算簡單",
+        "optionD": "容易解釋",
+        "answer": "B",
+        "description": "A: 深度學習通常需要大量資料\nB: 正確，深度學習能自動學習特徵\nC: 運算複雜，需要 GPU 加速\nD: 模型可解釋性差"
+    },
+    {
+        "ques": "以下哪種資料擴增方法適用於圖片？",
+        "optionA": "旋轉、翻轉、縮放",
+        "optionB": "增加列數",
+        "optionC": "增加特徵維度",
+        "optionD": "刪除缺失值",
+        "answer": "A",
+        "description": "A: 正確，旋轉、翻轉、縮放是常用圖片擴增方法\nB: 增加列數不是擴增方法\nC: 增加特徵維度不是資料擴增\nD: 刪除缺失值是前處理"
+    },
+    {
+        "ques": "AI 系統的決策透明度稱為？",
+        "optionA": "準確率",
+        "optionB": "可解釋性",
+        "optionC": "泛化能力",
+        "optionD": "運算效率",
+        "answer": "B",
+        "description": "A: 準確率衡量模型正確率\nB: 正確，可解釋性指 AI 決策透明度\nC: 泛化能力指對新資料表現\nD: 運算效率與決策透明度無關"
+    },
+    {
+        "ques": "以下哪個是回歸問題的例子？",
+        "optionA": "房價預測",
+        "optionB": "性別分類",
+        "optionC": "垃圾郵件分類",
+        "optionD": "客戶分群",
+        "answer": "A",
+        "description": "A: 正確，房價預測是回歸問題\nB: 性別分類是分類問題\nC: 垃圾郵件分類是分類問題\nD: 客戶分群是非監督式學習"
+    },
+    {
+        "ques": "資料集分為訓練集、驗證集、測試集的目的是？",
+        "optionA": "節省硬體資源",
+        "optionB": "評估模型泛化能力",
+        "optionC": "加速訓練速度",
+        "optionD": "增加資料量",
+        "answer": "B",
+        "description": "A: 與硬體無關\nB: 正確，分組主要是為了評估模型泛化能力\nC: 與速度無直接關係\nD: 不增加資料量"
+    },
+    {
+        "ques": "以下哪個是深度學習常用激活函數？",
+        "optionA": "ReLU",
+        "optionB": "平方根",
+        "optionC": "對數",
+        "optionD": "餘弦",
+        "answer": "A",
+        "description": "A: 正確，ReLU 是深度學習常用激活函數\nB: 平方根不是激活函數\nC: 對數不是激活函數\nD: 餘弦不是激活函數"
+    },
+    {
+        "ques": "AI 系統開發流程不包括？",
+        "optionA": "資料蒐集與前處理",
+        "optionB": "模型訓練與評估",
+        "optionC": "部署與監控",
+        "optionD": "硬體散熱設計",
+        "answer": "D",
+        "description": "A: 屬 AI 流程\nB: 屬 AI 流程\nC: 屬 AI 流程\nD:正確，與 AI 開發無關"
+    },
+    {
+        "ques": "監督式學習中，混淆矩陣主要用來？",
+        "optionA": "資料清理",
+        "optionB": "評估分類模型表現",
+        "optionC": "資料標準化",
+        "optionD": "增加資料量",
+        "answer": "B",
+        "description": "A: 與資料清理無關\nB: 正確，混淆矩陣用於評估分類模型表現\nC: 與資料標準化無關\nD: 與增加資料量無關"
+    },
+    {
+        "ques": "以下哪個是特徵選擇方法？",
+        "optionA": "PCA",
+        "optionB": "正則化",
+        "optionC": "梯度下降",
+        "optionD": "隨機初始化",
+        "answer": "A",
+        "description": "A: 正確，PCA 可用於降維與特徵選擇\nB: 正則化是防止過擬合\nC: 梯度下降是優化方法\nD: 隨機初始化是參數初始化方式"
+    },
+    {
+        "ques": "模型訓練中，什麼是 learning rate？",
+        "optionA": "模型層數",
+        "optionB": "每次更新權重步伐大小",
+        "optionC": "資料集大小",
+        "optionD": "激活函數種類",
+        "answer": "B",
+        "description": "A: 與層數無關\nB: 正確，learning rate 是每次更新權重步伐大小\nC: 與資料集大小無關\nD: 與激活函數無關"
+    },
+    {
+        "ques": "以下哪個資料型態適合使用 RNN？",
+        "optionA": "圖片",
+        "optionB": "序列文字",
+        "optionC": "結構化表格",
+        "optionD": "圖形節點",
+        "answer": "B",
+        "description": "A: CNN 適合圖片\nB: 正確，RNN 適合序列文字資料\nC: 表格適合傳統 ML\nD: 圖形節點適合 GNN"
+    },
+    {
+        "ques": "模型訓練中，早停法（Early Stopping）用來？",
+        "optionA": "避免 overfitting",
+        "optionB": "增加資料量",
+        "optionC": "加速訓練",
+        "optionD": "初始化權重",
+        "answer": "A",
+        "description": "A: 正確，早停法可避免 overfitting\nB: 與資料量無關\nC: 可能稍微加快訓練，但不是目的\nD: 與初始化無關"
+    },
+    {
+        "ques": "非監督式學習中常用算法？",
+        "optionA": "K-Means",
+        "optionB": "決策樹",
+        "optionC": "線性回歸",
+        "optionD": "隨機森林",
+        "answer": "A",
+        "description": "A: 正確，K-Means 是非監督式分群方法\nB: 決策樹屬監督式分類\nC: 線性回歸是監督式回歸\nD: 隨機森林是監督式模型"
+    },
+    {
+        "ques": "在資料分析中，標準差反映了什麼？",
+        "optionA": "資料平均值",
+        "optionB": "資料分散程度",
+        "optionC": "資料量大小",
+        "optionD": "資料類別數",
+        "answer": "B",
+        "description": "A: 平均值是 mean\nB: 正確，標準差反映資料分散程度\nC: 與資料量無關\nD: 與資料類別無關"
+    },
+    {
+        "ques": "AI 系統常用的評估指標不包括？",
+        "optionA": "精準率",
+        "optionB": "召回率",
+        "optionC": "均方誤差",
+        "optionD": "硬體溫度",
+        "answer": "D",
+        "description": "A: 精準率常用於分類\nB: 召回率常用於分類\nC: 均方誤差用於回歸\nD: 正確，硬體溫度不是評估指標"
+    },
+    {
+        "ques": "資料擴增可以解決什麼問題？",
+        "optionA": "特徵過多",
+        "optionB": "資料不足",
+        "optionC": "模型簡單",
+        "optionD": "過擬合",
+        "answer": "B",
+        "description": "A: 擴增不解決特徵過多\nB: 正確，資料擴增可增加資料量，緩解不足\nC: 與模型簡單無關\nD: 可能間接減少過擬合，但主要目的不是"
+    },
+    {
+        "ques": "AI 項目中，交叉驗證常用於？",
+        "optionA": "資料分群",
+        "optionB": "模型泛化能力評估",
+        "optionC": "資料清理",
+        "optionD": "特徵工程",
+        "answer": "B",
+        "description": "A: 交叉驗證不是分群方法\nB: 正確，用於評估模型泛化能力\nC: 與資料清理無關\nD: 與特徵工程無關"
+    },
+    {
+        "ques": "AI 是什麼的縮寫？",
+        "optionA": "Artificial Intelligence",
+        "optionB": "Automatic Internet",
+        "optionC": "Applied Information",
+        "optionD": "Advanced Integration",
+        "answer": "A",
+        "description": "A: 正確，AI 是 Artificial Intelligence 的縮寫\nB: 錯誤\nC: 錯誤\nD: 錯誤"
+    },
+    {
+        "ques": "機器學習（Machine Learning）主要目的是？",
+        "optionA": "讓電腦學習資料規律進行預測",
+        "optionB": "增加硬體效能",
+        "optionC": "資料清理",
+        "optionD": "人工標註資料",
+        "answer": "A",
+        "description": "A: 正確，機器學習用資料學習模式進行預測\nB: 與 ML 目的無關\nC: 與 ML 目的無關\nD: 標註資料是工具，不是目的"
+    },
+    {
+        "ques": "監督式學習需要什麼？",
+        "optionA": "有標籤資料",
+        "optionB": "無標籤資料",
+        "optionC": "隨機資料生成",
+        "optionD": "資料增強",
+        "answer": "A",
+        "description": "A: 正確，監督式學習需要標籤資料\nB: 無標籤資料是無監督學習\nC: 與監督式學習無關\nD: 與監督式學習無關"
+    },
+    {
+        "ques": "分類問題的目的是？",
+        "optionA": "預測類別標籤",
+        "optionB": "預測連續數值",
+        "optionC": "清理資料",
+        "optionD": "減少資料量",
+        "answer": "A",
+        "description": "A: 正確，分類問題用於預測類別\nB: 預測連續數值是回歸問題\nC: 與分類無關\nD: 與分類無關"
+    },
+    {
+        "ques": "回歸問題的目的是？",
+        "optionA": "預測連續數值",
+        "optionB": "預測類別標籤",
+        "optionC": "資料標準化",
+        "optionD": "資料清理",
+        "answer": "A",
+        "description": "A: 正確，回歸問題用於預測連續數值\nB: 分類問題才預測類別標籤\nC: 與回歸無關\nD: 與回歸無關"
+    },
+    {
+        "ques": "AI 模型的正則化目的是？",
+        "optionA": "增加模型複雜度",
+        "optionB": "防止過擬合",
+        "optionC": "加速運算",
+        "optionD": "減少資料量",
+        "answer": "B",
+        "description": "A: 正則化通常會減少複雜度\nB: 正確，防止模型過擬合\nC: 與運算速度無直接關係\nD: 與資料量無關"
+    },
+    {
+        "ques": "什麼是梯度消失問題？",
+        "optionA": "權重初始化失敗",
+        "optionB": "深層網路訓練中梯度變得非常小",
+        "optionC": "學習率過大",
+        "optionD": "資料不足",
+        "answer": "B",
+        "description": "A: 與權重初始化無關\nB: 正確，梯度消失是深層網路梯度變小，更新受限\nC: 學習率過大會震盪\nD: 與資料量無關"
+    },
+    {
+        "ques": "Batch Normalization 主要作用？",
+        "optionA": "增加資料量",
+        "optionB": "加速訓練與穩定梯度",
+        "optionC": "減少特徵數量",
+        "optionD": "改變模型層數",
+        "answer": "B",
+        "description": "A: 與資料量無關\nB: 正確，加速訓練並穩定梯度\nC: 與特徵數量無關\nD: 與模型層數無關"
+    },
+    {
+        "ques": "AI 模型調參最常用的方法？",
+        "optionA": "網格搜索(Grid Search)",
+        "optionB": "隨機刪除資料",
+        "optionC": "增加層數",
+        "optionD": "減少特徵",
+        "answer": "A",
+        "description": "A: 正確，網格搜索用於超參數調整\nB: 與調參無關\nC: 可能調整模型結構，不是調參方法\nD: 與調參無關"
+    },
+    {
+        "ques": "ROC 曲線主要用於？",
+        "optionA": "回歸模型評估",
+        "optionB": "分類模型性能評估",
+        "optionC": "資料分群",
+        "optionD": "特徵選擇",
+        "answer": "B",
+        "description": "A: ROC 不用於回歸\nB: 正確，ROC 曲線評估分類模型性能\nC: 與分群無關\nD: 與特徵選擇無關"
+    },
+    {
+        "ques": "過擬合常用解決方法？",
+        "optionA": "正則化",
+        "optionB": "增加模型複雜度",
+        "optionC": "減少資料量",
+        "optionD": "移除驗證集",
+        "answer": "A",
+        "description": "A: 正確，正則化可以抑制過擬合\nB: 增加複雜度會加重過擬合\nC: 減少資料量會加重過擬合\nD: 移除驗證集不建議"
+    },
+    {
+        "ques": "什麼是 Dropout？",
+        "optionA": "資料刪除法",
+        "optionB": "隨機丟棄神經元以防過擬合",
+        "optionC": "資料擴增方法",
+        "optionD": "優化演算法",
+        "answer": "B",
+        "description": "A: 與資料刪除無關\nB: 正確，Dropout 是隨機丟棄神經元防止過擬合\nC: 與資料擴增無關\nD: 不是優化演算法"
+    },
+    {
+        "ques": "CNN 最適合處理哪種資料？",
+        "optionA": "圖片",
+        "optionB": "文字",
+        "optionC": "表格數據",
+        "optionD": "時間序列",
+        "answer": "A",
+        "description": "A: 正確，CNN 常用於圖片資料\nB: 文字可用 RNN/CNN 組合\nC: 表格數據適用傳統 ML\nD: 時間序列適用 RNN/Transformer"
+    },
+    {
+        "ques": "Transformer 模型主要用於？",
+        "optionA": "時間序列與自然語言處理",
+        "optionB": "圖片分群",
+        "optionC": "回歸預測",
+        "optionD": "硬體控制",
+        "answer": "A",
+        "description": "A: 正確，Transformer 適合 NLP 與時間序列\nB: 圖片分群不適用 Transformer\nC: 可用於回歸，但主要應用 NLP\nD: 與硬體控制無關"
+    },
+    {
+        "ques": "什麼是注意力機制？",
+        "optionA": "增加資料量",
+        "optionB": "讓模型關注重要特徵",
+        "optionC": "資料標準化",
+        "optionD": "梯度下降方法",
+        "answer": "B",
+        "description": "A: 與資料量無關\nB: 正確，注意力機制讓模型關注重要特徵\nC: 與資料標準化無關\nD: 與梯度下降無關"
+    },
+    {
+        "ques": "什麼是模型微調（Fine-tuning）？",
+        "optionA": "從零訓練模型",
+        "optionB": "在預訓練模型上調整參數",
+        "optionC": "刪除資料",
+        "optionD": "增加特徵維度",
+        "answer": "B",
+        "description": "A: 從零訓練不是微調\nB: 正確，微調是在預訓練模型上調整\nC: 與微調無關\nD: 與微調無關"
+    },
+    {
+        "ques": "BERT 模型特點？",
+        "optionA": "單向 LSTM",
+        "optionB": "雙向 Transformer 編碼器",
+        "optionC": "CNN 基於卷積",
+        "optionD": "決策樹分類器",
+        "answer": "B",
+        "description": "A: LSTM 是 RNN 類型\nB: 正確，BERT 是雙向 Transformer 編碼器\nC: CNN 與 BERT 無關\nD: 決策樹與 BERT 無關"
+    },
+    {
+        "ques": "什麼是序列到序列模型（Seq2Seq）？",
+        "optionA": "將輸入序列映射為輸出序列",
+        "optionB": "生成圖片模型",
+        "optionC": "回歸模型",
+        "optionD": "分群模型",
+        "answer": "A",
+        "description": "A: 正確，Seq2Seq 將輸入序列映射為輸出序列\nB: 與圖片生成無關\nC: 與回歸無關\nD: 與分群無關"
+    },
+    {
+        "ques": "什麼是詞嵌入（Word Embedding）？",
+        "optionA": "將文字轉為向量表示",
+        "optionB": "增加資料量",
+        "optionC": "標準化資料",
+        "optionD": "特徵縮放",
+        "answer": "A",
+        "description": "A: 正確，詞嵌入將文字轉為向量\nB: 與資料量無關\nC: 與標準化無關\nD: 與特徵縮放無關"
+    },
+    {
+        "ques": "什麼是 Masked Language Model？",
+        "optionA": "隱藏部分輸入詞進行預測",
+        "optionB": "資料清理方法",
+        "optionC": "回歸模型方法",
+        "optionD": "分群方法",
+        "answer": "A",
+        "description": "A: 正確，遮蔽部分詞並預測\nB: 與資料清理無關\nC: 與回歸無關\nD: 與分群無關"
+    },
+    {
+        "ques": "什麼是 Attention Mask？",
+        "optionA": "標記哪些詞需關注",
+        "optionB": "刪除資料",
+        "optionC": "資料擴增",
+        "optionD": "標準化特徵",
+        "answer": "A",
+        "description": "A: 正確，Attention Mask 用於遮蔽不需要關注的詞\nB: 與刪除資料無關\nC: 與資料擴增無關\nD: 與特徵標準化無關"
+    },
+    {
+        "ques": "什麼是 Gradient Clipping？",
+        "optionA": "限制梯度範圍避免梯度爆炸",
+        "optionB": "增加資料量",
+        "optionC": "資料清理",
+        "optionD": "調整激活函數",
+        "answer": "A",
+        "description": "A: 正確，梯度裁剪限制梯度值避免爆炸\nB: 與資料量無關\nC: 與資料清理無關\nD: 與激活函數無關"
+    },
+    {
+        "ques": "什麼是 Teacher-Student 模型？",
+        "optionA": "大模型指導小模型學習",
+        "optionB": "增加資料量",
+        "optionC": "特徵標準化",
+        "optionD": "梯度下降法",
+        "answer": "A",
+        "description": "A: 正確，大模型（Teacher）指導小模型（Student）學習\nB: 與資料量無關\nC: 與標準化無關\nD: 與梯度下降無關"
+    },
+    {
+        "ques": "什麼是多任務學習？",
+        "optionA": "同時學習多個相關任務",
+        "optionB": "資料擴增方法",
+        "optionC": "梯度下降方法",
+        "optionD": "資料標準化",
+        "answer": "A",
+        "description": "A: 正確，多任務學習共享特徵學習多個任務\nB: 與資料擴增無關\nC: 與梯度下降無關\nD: 與標準化無關"
+    },
+    {
+        "ques": "什麼是 Layer Normalization？",
+        "optionA": "對單個樣本特徵進行標準化",
+        "optionB": "對整個批次特徵標準化",
+        "optionC": "增加資料量",
+        "optionD": "減少特徵維度",
+        "answer": "A",
+        "description": "A: 正確，Layer Norm 對單個樣本標準化\nB: Batch Norm 對整個批次標準化\nC: 與資料量無關\nD: 與特徵維度無關"
+    },
+    {
+        "ques": "什麼是 Positional Encoding？",
+        "optionA": "提供序列位置信息給 Transformer",
+        "optionB": "資料清理方法",
+        "optionC": "梯度下降方法",
+        "optionD": "資料標準化",
+        "answer": "A",
+        "description": "A: 正確，提供序列位置信息\nB: 與資料清理無關\nC: 與梯度下降無關\nD: 與標準化無關"
+    },
+    {
+        "ques": "什麼是 Layer-wise Learning Rate？",
+        "optionA": "對不同層使用不同學習率",
+        "optionB": "資料擴增方法",
+        "optionC": "資料清理方法",
+        "optionD": "特徵縮放方法",
+        "answer": "A",
+        "description": "A: 正確，對不同層設定不同學習率\nB: 與資料擴增無關\nC: 與資料清理無關\nD: 與特徵縮放無關"
+    },
+    {
+        "ques": "什麼是 Warm-up Learning Rate？",
+        "optionA": "訓練初期逐步增加學習率",
+        "optionB": "減少資料量",
+        "optionC": "資料清理",
+        "optionD": "梯度下降方法",
+        "answer": "A",
+        "description": "A: 正確，Warm-up 是訓練初期逐步提高學習率\nB: 與資料量無關\nC: 與資料清理無關\nD: 與梯度下降無關"
+    },
+    {
+        "ques": "什麼是 Early Stopping？",
+        "optionA": "訓練中監控驗證集表現提前停止",
+        "optionB": "增加資料量",
+        "optionC": "資料清理",
+        "optionD": "梯度下降方法",
+        "answer": "A",
+        "description": "A: 正確，Early Stopping 防止過擬合\nB: 與資料量無關\nC: 與資料清理無關\nD: 與梯度下降無關"
+    },
+    {
+        "ques": "什麼是 Gradient Accumulation？",
+        "optionA": "累積多個小批次梯度再更新權重",
+        "optionB": "資料清理方法",
+        "optionC": "資料擴增方法",
+        "optionD": "特徵標準化",
+        "answer": "A",
+        "description": "A: 正確，累積梯度以模擬大批次訓練\nB: 與資料清理無關\nC: 與資料擴增無關\nD: 與特徵標準化無關"
+    },
+    {
+        "ques": "什麼是 Mixed Precision Training？",
+        "optionA": "使用半精度與單精度混合訓練",
+        "optionB": "增加資料量",
+        "optionC": "資料清理",
+        "optionD": "梯度下降方法",
+        "answer": "A",
+        "description": "A: 正確，Mixed Precision 提升運算效率\nB: 與資料量無關\nC: 與資料清理無關\nD: 與梯度下降無關"
+    },
+    {
+        "ques": "什麼是 Knowledge Distillation？",
+        "optionA": "大模型知識轉移至小模型",
+        "optionB": "資料擴增方法",
+        "optionC": "梯度下降方法",
+        "optionD": "特徵標準化",
+        "answer": "A",
+        "description": "A: 正確，將大模型知識蒸餾給小模型\nB: 與資料擴增無關\nC: 與梯度下降無關\nD: 與特徵標準化無關"
+    },
+    {
+        "ques": "什麼是 Label Smoothing？",
+        "optionA": "將真實標籤稍微平滑以提高泛化",
+        "optionB": "增加資料量",
+        "optionC": "資料清理方法",
+        "optionD": "梯度下降方法",
+        "answer": "A",
+        "description": "A: 正確，Label Smoothing 有助於防止過擬合\nB: 與資料量無關\nC: 與資料清理無關\nD: 與梯度下降無關"
+    },
+    {
+        "ques": "什麼是 Curriculum Learning？",
+        "optionA": "先學易後學難，逐步增加難度",
+        "optionB": "資料清理方法",
+        "optionC": "資料標準化方法",
+        "optionD": "梯度下降方法",
+        "answer": "A",
+        "description": "A: 正確，Curriculum Learning 按難度逐步訓練\nB: 與資料清理無關\nC: 與標準化無關\nD: 與梯度下降無關"
+    },
+    {
+        "ques": "什麼是 Contrastive Loss？",
+        "optionA": "使相似樣本距離小，不同樣本距離大",
+        "optionB": "資料擴增方法",
+        "optionC": "資料清理方法",
+        "optionD": "特徵標準化方法",
+        "answer": "A",
+        "description": "A: 正確，Contrastive Loss 用於學習相似性\nB: 與資料擴增無關\nC: 與資料清理無關\nD: 與標準化無關"
+    },
+    {
+        "ques": "什麼是 Siamese Network？",
+        "optionA": "用於學習樣本相似性的一對神經網路",
+        "optionB": "資料清理方法",
+        "optionC": "梯度下降方法",
+        "optionD": "特徵標準化",
+        "answer": "A",
+        "description": "A: 正確，Siamese Network 用於學習相似性\nB: 與資料清理無關\nC: 與梯度下降無關\nD: 與標準化無關"
+    },
+    {
+        "ques": "什麼是 Triplet Loss？",
+        "optionA": "保持 Anchor-Positive 距離小、Anchor-Negative 距離大",
+        "optionB": "資料清理方法",
+        "optionC": "梯度下降方法",
+        "optionD": "特徵標準化",
+        "answer": "A",
+        "description": "A: 正確，Triplet Loss 用於學習向量間相對距離\nB: 與資料清理無關\nC: 與梯度下降無關\nD: 與標準化無關"
+    },
+    {
+        "ques": "什麼是 Focal Loss？",
+        "optionA": "對難分類樣本加權，減少易分類樣本影響",
+        "optionB": "資料擴增方法",
+        "optionC": "資料清理方法",
+        "optionD": "梯度下降方法",
+        "answer": "A",
+        "description": "A: 正確，Focal Loss 處理類別不平衡問題\nB: 與資料擴增無關\nC: 與資料清理無關\nD: 與梯度下降無關"
+    },
+    {
+        "ques": "什麼是 Multi-task Learning？",
+        "optionA": "同時學習多個任務以共享特徵",
+        "optionB": "資料擴增方法",
+        "optionC": "資料清理方法",
+        "optionD": "梯度下降方法",
+        "answer": "A",
+        "description": "A: 正確，共享特徵提升多任務表現\nB: 與資料擴增無關\nC: 與資料清理無關\nD: 與梯度下降無關"
+    },
+    {
+        "ques": "什麼是 AutoML？",
+        "optionA": "自動化模型選擇與參數調整",
+        "optionB": "資料清理方法",
+        "optionC": "梯度下降方法",
+        "optionD": "資料標準化",
+        "answer": "A",
+        "description": "A: 正確，AutoML 自動化整個模型流程\nB: 與資料清理無關\nC: 與梯度下降無關\nD: 與標準化無關"
+    },
+    {
+        "ques": "AI 在財務風險評估中應用最重要的是？",
+        "optionA": "資料清理",
+        "optionB": "特徵選擇與建模",
+        "optionC": "硬體升級",
+        "optionD": "網頁設計",
+        "answer": "B",
+        "description": "A: 清理是前置作業\nB: 正確，特徵選擇與建模是核心\nC: 與分析無關\nD: 與分析無關"
+    },
+    {
+        "ques": "時間序列預測模型中，最適合處理長期依賴的模型？",
+        "optionA": "CNN",
+        "optionB": "RNN",
+        "optionC": "LSTM",
+        "optionD": "決策樹",
+        "answer": "C",
+        "description": "A: CNN 不適合長期依賴\nB: RNN 可能出現梯度消失\nC: 正確，LSTM 能捕捉長期依賴\nD: 決策樹不適用於序列預測"
+    },
+    {
+        "ques": "在大數據分析中，特徵選擇的重要性？",
+        "optionA": "降低計算成本",
+        "optionB": "提升模型性能",
+        "optionC": "避免過擬合",
+        "optionD": "以上皆是",
+        "answer": "D",
+        "description": "A: 降低計算成本\nB: 提升模型性能\nC: 避免過擬合\nD: 正確，以上皆是"
+    },
+    {
+        "ques": "模型集成（Ensemble）方法常用於？",
+        "optionA": "單一模型優化",
+        "optionB": "提高模型穩定性與準確率",
+        "optionC": "資料清理",
+        "optionD": "硬體加速",
+        "answer": "B",
+        "description": "A: 單一模型優化不是集成方法\nB: 正確，集成方法提高穩定性與準確率\nC: 與資料清理無關\nD: 與硬體無關"
+    },
+    {
+        "ques": "AI 模型部署後，最重要的監控指標？",
+        "optionA": "模型精準度變化",
+        "optionB": "訓練時間",
+        "optionC": "資料大小",
+        "optionD": "硬體溫度",
+        "answer": "A",
+        "description": "A: 正確，監控模型精準度以確保服務品質\nB: 訓練時間已完成\nC: 與部署監控無關\nD: 與部署監控無關"
+    },
+    {
+        "ques": "在自然語言處理中，詞嵌入（Word Embedding）的作用？",
+        "optionA": "數值化表示文字",
+        "optionB": "增加資料量",
+        "optionC": "資料清理",
+        "optionD": "梯度下降",
+        "answer": "A",
+        "description": "A: 正確，詞嵌入將文字轉為向量表示\nB: 與資料量無關\nC: 與資料清理無關\nD: 與梯度下降無關"
+    },
+    {
+        "ques": "強化學習中，Agent 的目標是？",
+        "optionA": "最小化損失函數",
+        "optionB": "最大化累積獎勵",
+        "optionC": "增加資料量",
+        "optionD": "資料標準化",
+        "answer": "B",
+        "description": "A: 損失函數用於監督學習\nB: 正確，強化學習目標是最大化累積獎勵\nC: 與資料量無關\nD: 與資料標準化無關"
+    },
+    {
+        "ques": "生成式 AI 模型（如 GPT）主要用途？",
+        "optionA": "生成文本或內容",
+        "optionB": "資料分群",
+        "optionC": "回歸預測",
+        "optionD": "硬體控制",
+        "answer": "A",
+        "description": "A: 正確，用於生成文本或多媒體內容\nB: 與生成無關\nC: 與回歸無關\nD: 與硬體無關"
+    },
+    {
+        "ques": "在多任務學習中，模型優勢？",
+        "optionA": "提高單任務表現",
+        "optionB": "共享特徵學習",
+        "optionC": "減少資料量",
+        "optionD": "降低運算成本",
+        "answer": "B",
+        "description": "A: 多任務可能略微提升單任務，但主要是共享特徵\nB: 正確，核心優勢是共享特徵學習\nC: 不減少資料量\nD: 運算成本通常增加"
+    },
+    {
+        "ques": "什麼是自注意力機制（Self-Attention）？",
+        "optionA": "對資料標準化",
+        "optionB": "計算序列內元素間的關聯",
+        "optionC": "增加資料量",
+        "optionD": "梯度下降方法",
+        "answer": "B",
+        "description": "A: 與標準化無關\nB: 正確，計算序列內元素間的關聯\nC: 與資料量無關\nD: 與梯度下降無關"
+    },
+    {
+        "ques": "Transformer 的核心組件？",
+        "optionA": "卷積層",
+        "optionB": "自注意力層",
+        "optionC": "決策樹",
+        "optionD": "線性回歸",
+        "answer": "B",
+        "description": "A: CNN 的核心\nB: 正確，自注意力層是 Transformer 核心\nC: 與 Transformer 無關\nD: 與 Transformer 無關"
+    },
+    {
+        "ques": "什麼是梯度爆炸（Gradient Explosion）？",
+        "optionA": "梯度變得非常大導致訓練不穩定",
+        "optionB": "資料不足",
+        "optionC": "模型過於簡單",
+        "optionD": "過擬合",
+        "answer": "A",
+        "description": "A: 正確，梯度爆炸會導致訓練不穩定\nB: 與梯度無關\nC: 與模型簡單無關\nD: 與過擬合無直接關係"
+    },
+    {
+        "ques": "AI 模型在金融領域風險控制中，最重要的是？",
+        "optionA": "資料準確性",
+        "optionB": "模型可解釋性",
+        "optionC": "交易速度",
+        "optionD": "硬體效率",
+        "answer": "B",
+        "description": "A: 資料準確性重要，但核心是可解釋性\nB: 正確，可解釋性有助於風險控制與法規遵循\nC: 與風險控制非核心\nD: 與風險控制無關"
+    },
+    {
+        "ques": "在醫療影像分析中，常用模型？",
+        "optionA": "CNN",
+        "optionB": "RNN",
+        "optionC": "決策樹",
+        "optionD": "線性回歸",
+        "answer": "A",
+        "description": "A: 正確，CNN 適合影像分析\nB: RNN 適合序列資料\nC: 決策樹較少用於影像\nD: 線性回歸不適用影像"
+    },
+    {
+        "ques": "什麼是模型微調（Fine-tuning）？",
+        "optionA": "從零訓練模型",
+        "optionB": "在預訓練模型上調整參數",
+        "optionC": "刪除資料",
+        "optionD": "增加特徵維度",
+        "answer": "B",
+        "description": "A: 從零訓練不是微調\nB: 正確，微調是在預訓練模型上調整\nC: 與微調無關\nD: 與微調無關"
+    },
+    {
+        "ques": "在 NLP 任務中，什麼是 BERT 模型特點？",
+        "optionA": "單向 LSTM",
+        "optionB": "雙向 Transformer 編碼器",
+        "optionC": "CNN 基於卷積",
+        "optionD": "決策樹分類器",
+        "answer": "B",
+        "description": "A: LSTM 是 RNN 類型\nB: 正確，雙向 Transformer 編碼器是 BERT 的核心\nC: CNN 與 BERT 無關\nD: 決策樹與 BERT 無關"
+    },
+    {
+        "ques": "什麼是模型蒸餾（Model Distillation）？",
+        "optionA": "將大模型知識轉移至小模型",
+        "optionB": "增加資料量",
+        "optionC": "資料標準化",
+        "optionD": "梯度下降方法",
+        "answer": "A",
+        "description": "A: 正確，模型蒸餾是將大模型知識轉移至小模型\nB: 與資料量無關\nC: 與資料標準化無關\nD: 與梯度下降無關"
+    },
+    {
+        "ques": "什麼是生成對抗網路（GAN）？",
+        "optionA": "生成模型與判別模型互相對抗",
+        "optionB": "資料分群方法",
+        "optionC": "回歸模型",
+        "optionD": "決策樹模型",
+        "answer": "A",
+        "description": "A: 正確，GAN 由生成器和判別器對抗訓練\nB: GAN 不是分群方法\nC: GAN 不是回歸模型\nD: GAN 不是決策樹"
+    },
+    {
+        "ques": "什麼是 Reinforcement Learning 中的 Policy？",
+        "optionA": "獎勵函數",
+        "optionB": "策略函數，決定 Agent 行動",
+        "optionC": "資料清理方法",
+        "optionD": "優化演算法",
+        "answer": "B",
+        "description": "A: Policy 與獎勵函數不同\nB: 正確，Policy 指策略函數，決定行動\nC: 與資料清理無關\nD: 與優化演算法無關"
+    },
+    {
+        "ques": "什麼是 Transformer 模型中的 Multi-Head Attention？",
+        "optionA": "多個注意力頭並行捕捉不同特徵關聯",
+        "optionB": "多個卷積核組合",
+        "optionC": "多層線性回歸",
+        "optionD": "多任務學習方法",
+        "answer": "A",
+        "description": "A: 正確，多個注意力頭捕捉不同特徵關聯\nB: 與卷積無關\nC: 與線性回歸無關\nD: 與多任務學習無關"
+    },
+    {
+        "ques": "什麼是自監督學習（Self-supervised Learning）？",
+        "optionA": "完全無監督學習",
+        "optionB": "用資料自身生成標籤進行訓練",
+        "optionC": "人工標註資料訓練",
+        "optionD": "增強資料量",
+        "answer": "B",
+        "description": "A: 不是完全無監督\nB: 正確，自監督學習用資料自身生成標籤\nC: 屬監督式學習\nD: 與自監督無關"
+    },
+    {
+        "ques": "什麼是對比學習（Contrastive Learning）？",
+        "optionA": "使相似樣本向量接近、不同樣本向量遠離",
+        "optionB": "資料分群方法",
+        "optionC": "回歸模型訓練",
+        "optionD": "特徵縮放方法",
+        "answer": "A",
+        "description": "A: 正確，對比學習通過相似/不同樣本距離學習表徵\nB: 與分群無關\nC: 與回歸無關\nD: 與特徵縮放無關"
+    },
+    {
+        "ques": "在強化學習中，什麼是 Exploration vs Exploitation？",
+        "optionA": "探索未知 vs 利用已知策略獲取獎勵",
+        "optionB": "資料清理方法",
+        "optionC": "模型正則化方法",
+        "optionD": "特徵工程方法",
+        "answer": "A",
+        "description": "A: 正確，探索未知環境 vs 利用已知策略\nB: 與資料清理無關\nC: 與正則化無關\nD: 與特徵工程無關"
+    },
+    {
+        "ques": "什麼是 AI 模型的偏差-方差權衡（Bias-Variance Tradeoff）？",
+        "optionA": "模型偏差與運算速度的關係",
+        "optionB": "模型複雜度與泛化能力的平衡",
+        "optionC": "資料量與模型大小的平衡",
+        "optionD": "資料清理方法",
+        "answer": "B",
+        "description": "A: 與運算速度無關\nB: 正確，偏差-方差權衡是模型複雜度與泛化能力平衡\nC: 與資料量無關\nD: 與資料清理無關"
+    },
+    {
+        "ques": "AI 模型在實務部署後，最重要的維護行為？",
+        "optionA": "持續監控模型表現",
+        "optionB": "刪除資料集",
+        "optionC": "增加模型層數",
+        "optionD": "改變硬體配置",
+        "answer": "A",
+        "description": "A: 正確，監控模型表現確保穩定性\nB: 與維護無關\nC: 與部署維護無關\nD: 與部署維護無關"
+    }
+]
