@@ -32,6 +32,8 @@ def set_Exam(examName:str | None) -> None:
     return
 
 def set_ramdom(choice:str) -> None:
+    if choice == '請選擇':
+        raise gr.Error("請先選擇題數")
     es.set_Ramdom_Ques(choice)
     gr.Success("Ramdom Ques Set")
     return
@@ -117,27 +119,25 @@ def submit_ans(ans:str):
 
 with gr.Blocks() as demo:
     gr.Markdown("<center><h2> 題庫練習系統 </h2></center>")
-    with gr.Tab():
-        with gr.TabItem("題庫管理"):
-            file = gr.File(label="上傳題庫", file_types=['.json'])
-            sub_file = gr.Button("確認上傳")
-        with gr.TabItem("測驗"):
-            examSelector = gr.Dropdown(label="請選擇題庫", choices=["請選擇",*get_examList()],interactive=True)
-            examSelector.change(set_Exam, inputs=examSelector, outputs=None)
-            ramdomSelector = gr.Dropdown(label="隨機出題,題數", choices=['all','25','50'],value='all',interactive=True)
-            ramdomSelector.change(set_ramdom, inputs=ramdomSelector, outputs=None)
-            start = gr.Button("開始測驗")
+    with gr.TabItem("測驗"):
+        examSelector = gr.Dropdown(label="請選擇題庫", choices=["請選擇",*get_examList()],interactive=True)
+        examSelector.change(set_Exam, inputs=examSelector, outputs=None)
+        ramdomSelector = gr.Dropdown(label="隨機出題,題數", choices=['請選擇','all','25','50'],value='請選擇',interactive=True)
+        ramdomSelector.change(set_ramdom, inputs=ramdomSelector, outputs=None)
+        start = gr.Button("開始測驗")
 
-            title = gr.Markdown(f"<center><h4> 未開始 </h4></center>")
-            ques = gr.TextArea(label="題目",interactive=False,lines=8, max_lines=8)
-            ans = gr.Dropdown(label="答案",interactive=True,choices=["A","B","C","D"],value="A")
-            with gr.Row():
-                prev = gr.Button("上一題",interactive= not now_ques == 0 and isStart)
-                next = gr.Button("下一題",interactive= not now_ques == len(es.Ramdom or [])-1 and isStart)
-            submit = gr.Button("提交試卷",interactive= len(es.Ramdom or [])-1 == len(es.userAns or []) and isStart)
-            score = gr.Textbox(label="得分",interactive=False,value="0%")
-    
-    @gr.render(None, [submit.click])
+        title = gr.Markdown(f"<center><h4> 未開始 </h4></center>")
+        ques = gr.TextArea(label="題目",interactive=False,lines=8, max_lines=8)
+        ans = gr.Dropdown(label="答案",interactive=True,choices=["A","B","C","D"],value="A")
+        with gr.Row():
+            prev = gr.Button("上一題",interactive= not now_ques == 0 and isStart)
+            next = gr.Button("下一題",interactive= not now_ques == len(es.Ramdom or [])-1 and isStart)
+        submit = gr.Button("提交試卷",interactive= len(es.Ramdom or [])-1 == len(es.userAns or []) and isStart)
+        score = gr.Textbox(label="得分",interactive=False,value="0%")
+    with gr.TabItem("題庫管理"):
+        file = gr.File(label="上傳題庫", file_types=['.json'])
+        sub_file = gr.Button("確認上傳")
+    @gr.render(None, [submit.click,start.click])
     def render_errors():
         gr.Info("顯示錯誤題目中...")
         time.sleep(1)
